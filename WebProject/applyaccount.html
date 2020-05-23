@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Information</title>
+</head>
+<style>
+body{
+    background-image: url(https://media.giphy.com/media/GNi6tO8vX2XXa/giphy.gif);
+    background-size: cover;
+    color: whitesmoke;
+}
+legend{
+    font-size: 18px;
+}
+</style>
+<body>
+<form method="post" action="applyaccount.php">
+<fieldset> <legend> <b>Login Form</b></legend>
+<p><strong>First Name:</strong><br/>
+    <input type="text" name="firstname" pattern="[a-zA-Z]+" title="Please enter only characters"/></p>
+<p><strong>Last Name:</strong><br/>
+<input type="text" name="lastname" pattern="[a-zA-Z]+" title="Please enter only characters"/></p>
+<p><strong>Email:</strong><br/>
+<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size ="30" title="Please enter a vaild email address"/></p>
+<p><strong>Password:</strong><br/>
+<input type="password" name="password" pattern=".{6,}" title="Please enter 6 or more character or integer" size="30"/></p>
+<p><strong>Age:</strong><br/>
+<input type="number" name="age"/></p>
+<p><strong>gender:</strong></p>
+<input type="radio" name="gender" value="male" checked/>Male
+<input type="radio" name="gender" value="female" checked>Female<br><br>
+<input type="submit" name="submit" value="Create account"/>
+</fieldset>
+    <a href ="userlogin.html" style="font-size: 25px; color: whitesmoke">Already exist user ?</a>
+</form>
+</body>
+</html>

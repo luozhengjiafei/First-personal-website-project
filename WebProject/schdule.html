@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<style>
+    body{
+        background-image: url(https://media.giphy.com/media/bF410TPOpQCjIS8mai/giphy.gif);
+        background-size: cover;
+        text-align: center;
+    }
+    #parent {
+        display: table;
+        width: 100%;
+        height: 200px;
+    }
+    #form{
+        color: whitesmoke;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+}
+select{
+    width: 400px;
+    height: 40px;
+    
+}
+</style>
+  <html>
+      <body>
+          <br><br><br><br><br><br>
+        <div id="parent">  
+	<form action="schdule.php" method="POST" id ="form">		
+	    <select name="Kamloops">
+		<option value='1'>Wildlife Park</option>
+                <option value='2'>Monte Creek Ranch Winery</option>
+	    </select>
+            <br>
+            <select name="Banff">
+		<option value='1'>Lake Louise</option>
+                <option value='2'>Jasper National Park</option>
+                <option value='3'>Bow Falls</option>
+	    </select>
+            <br>
+            <select name="Kelowna">
+		<option value='1'>Gyro Beach</option>
+                <option value='2'>Okanagan Lake</option>
+	    </select>
+	    <br/><br/>
+	    <input type="submit" value="submit">
+	</form>
+            </div>
+    </body>
+   </html>
