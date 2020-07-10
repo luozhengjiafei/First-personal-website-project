@@ -1,5 +1,5 @@
 # First-personal-website-project
 The first personal website project
-Front-end: css,html
-Back-end: php
-Database: MySQL
+Front-end: CSS, HTML.
+Back-end: PHP .
+Database: MySQL.
